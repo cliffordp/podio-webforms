@@ -2,7 +2,7 @@
 Contributors: cliffpaulick
 Tags: podio, shortcode, shortcodes, crm, contact, contacts, customer, customers, lead, leads, quote, contact form, contact forms, form, forms, secure form, wp contact form, webform, webforms widget, security, ssl, https, script, scripts, responsive
 Requires at least: 3.0
-Tested up to: 4.0
+Tested up to: 4.2.1
 Stable tag: /trunk/
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
