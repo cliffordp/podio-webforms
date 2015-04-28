@@ -34,6 +34,8 @@ Don't forget to whitelist your allowed domains in your Podio settings, otherwise
 
 FYI: This is a third-party plugin, not officially from the Podio company.
 
+Developers may contribute at https://github.com/cliffordp/Podio-Webforms
+
 == Installation ==
 
 Automatically or manually install to wp-content/plugins/
