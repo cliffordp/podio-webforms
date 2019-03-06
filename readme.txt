@@ -3,9 +3,9 @@ Contributors: cliffpaulick
 Tags: podio, shortcode, shortcodes, crm, contact, contacts, customer, customers, lead, leads, quote, contact form, contact forms, form, forms, secure form, wp contact form, webform, webforms widget, security, ssl, https, script, scripts, responsive
 Requires at least: 3.0
 Tested up to: 4.2.1
-Stable tag: /trunk/
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Stable tag: 1.2
 
 Easily add your Podio Webforms anywhere in WordPress via shortcode.
 
@@ -70,6 +70,9 @@ No need. Just enjoy. If you don't have a Podio account yet, I'd appreciate you s
 
 == Changelog ==
 * Changelog DIFFs for all versions are available at <a href="http://plugins.trac.wordpress.org/browser/podio-webforms/trunk" target="_blank">WordPress SVN</a>.
+
+= 1.2 =
+* March 6, 2019
 = 1.1 =
 * April 28, 2015
 * Readme compatibility changed to WordPress version 4.2.1
