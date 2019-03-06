@@ -1,11 +1,11 @@
 === Podio Webforms ===
 Contributors: cliffpaulick
-Tags: podio, shortcode, shortcodes, crm, contact, contacts, customer, customers, lead, leads, quote, contact form, contact forms, form, forms, secure form, wp contact form, webform, webforms widget, security, ssl, https, script, scripts, responsive
-Requires at least: 3.0
-Tested up to: 4.2.1
-Stable tag: /trunk/
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: podio, shortcode, forms, https, responsive
+Requires at least: 4.6
+Tested up to: 5.1
+Stable tag: 1.2
+License: GPL version 3 or any later version
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
 Easily add your Podio Webforms anywhere in WordPress via shortcode.
 
@@ -17,24 +17,24 @@ Just go to your Podio app's webform page and find your code (no need to copy and
 
 Optionally, can add [podioform ... showfooter='no'].
 
-= List of Examples: =
+= List of Examples =
+
 * [podioform appid='9876543' formid='123456']
 * [podioform appid='9876543' formid='123456' *showfooter*='no']
 * [podioform appid='9876543' formid='123456' *footerlink*='https://podio.com/r/enlaREvfxo9M-sl8uX4EtA']
 
 Don't forget to whitelist your allowed domains in your Podio settings, otherwise your forms won't show up.
 
-= Podio Webform Tips: =
+= Podio Webform Tips =
+
 * <a href="https://podio.com/r/enlaREvfxo9M-sl8uX4EtA" target="_blank">Sign up for Podio</a> (it's free!)
-* <a href="https://help.podio.com/entries/21684758-Creating-a-webform-from-an-app" target="_blank">How to create a Podio Webform</a>
-* <a href="https://developers.podio.com/examples/webforms" target="_blank">Webform Examples for Podio Developers</a>
+* <a href="https://help.podio.com/hc/en-us/articles/201019628-Webforms" target="_blank">How to create a Podio Webform</a>
 * <a href="https://podio.com/market" target="_blank">Podio Apps Market</a> (all apps are free, some come pre-configured as Webforms)
-* <a href="https://zapier.com/zapbook/podio/" target="_blank">Zapier Podio Integrations</a>
-* <a href="https://www.itduzzit.com/connect/podio" target="_blank">itDuzzit Podio Integrations</a>
+* <a href="https://zapier.com/apps/podio/integrations" target="_blank">Zapier Podio Integrations</a>
 
 FYI: This is a third-party plugin, not officially from the Podio company.
 
-Developers may contribute at https://github.com/cliffordp/Podio-Webforms
+Developers may contribute at https://github.com/cliffordp/podio-webforms
 
 == Installation ==
 
@@ -50,16 +50,12 @@ Because Podio is free, cool, and very flexible. One example is webforms, which i
 
 It's a simple shortcode plugin with no network admin level settings. Works fine as a regular plugin within Multisite.
 
-= What's on the Wish List? =
-
-Unfortunately, I couldn't get the forms to render using WP's enqueue script code. Not sure why. Feel free to edit the code to try to get that to work and let me know if you do. I'd like to get that working, if possible.
-The footer is English-only as-is. Feel free to contribute there too.
-
 = How can I give back? =
 
 No need. Just enjoy. If you don't have a Podio account yet, I'd appreciate you signing up for your free or paid account via my referral link: https://podio.com/r/enlaREvfxo9M-sl8uX4EtA
 
 == Screenshots ==
+
 1. 1) From within your Podio app, go to the app's settings and click "Webform"
 2. 2) Make sure your domains are whitelisted
 3. 3) Find your AppID and FormID (if you don't need advanced customization, skip to screenshot #7)
@@ -69,10 +65,21 @@ No need. Just enjoy. If you don't have a Podio account yet, I'd appreciate you s
 7. 7) Insert shortcode using your Podio AppID and FormID (from screenshot #3, above)
 
 == Changelog ==
+
 * Changelog DIFFs for all versions are available at <a href="http://plugins.trac.wordpress.org/browser/podio-webforms/trunk" target="_blank">WordPress SVN</a>.
+
+= 1.2 =
+* March 6, 2019
+* License changed from GPLv2+ to GPLv3+.
+* Now passes the shortcode name to `shortcode_atts()` to allow filtering this plugin's shortcode.
+* Text within `<noscript>` is now translatable.
+* Now requires WordPress version 4.6 or newer.
+* Readme compatibility changed to WordPress version 5.1
+
 = 1.1 =
 * April 28, 2015
 * Readme compatibility changed to WordPress version 4.2.1
+
 = 1.0 =
 * October 30, 2013
 * Initial release
