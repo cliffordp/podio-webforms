@@ -7,7 +7,8 @@ Description: Easily add your Podio Webforms anywhere in WordPress via shortcode.
 Version: 1.2
 Author: TourKick (Clifford P)
 Author URI: https://podio.com/r/enlaREvfxo9M-sl8uX4EtA
-License: GPLv2 or later
+License: GPL version 3 or any later version
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
 */
 
 // ideas:
