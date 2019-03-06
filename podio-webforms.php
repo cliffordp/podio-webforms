@@ -2,7 +2,7 @@
 /*
 Plugin Name: Podio Webforms
 Text Domain: podio-webforms
-Plugin URI: http://wordpress.org/extend/plugins/podio-webforms/
+Plugin URI: https://wordpress.org/plugins/podio-webforms/
 Description: Easily add your Podio Webforms anywhere in WordPress via shortcode. Don't worry about all that Podio Webform code, and you don't have to switch to the HTML Editor to paste anything. Just go to your Podio app's webform page and find your code (no need to copy and paste). Look at the code and find the https://podio.com/webforms/<strong>9876543/123456</strong>.js part, and create a shortcode like this: <strong>[podioform appid='9876543' formid='123456']</strong>. <em>That's it.</em> Optionally, can add [podioform ... showfooter='no'].
 Version: 1.2
 Author: TourKick (Clifford P)
@@ -11,10 +11,6 @@ License: GPL version 3 or any later version
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 */
 
-// ideas:
-// suggestions for custom success message to track goals or consider something like http://www.podiomail.com/blog/podio-webforms-and-google-analytics-goals.php
-
-// Add Shortcode
 function pf_podioform( $atts ) {
 
 	// Attributes
@@ -63,6 +59,3 @@ function pf_podioform( $atts ) {
 	}
 }
 add_shortcode( 'podioform', 'pf_podioform' );
-
-// End of plugin
-// Do not add closing PHP tag
