@@ -28,15 +28,13 @@ Don't forget to whitelist your allowed domains in your Podio settings, otherwise
 = Podio Webform Tips =
 
 * <a href="https://podio.com/r/enlaREvfxo9M-sl8uX4EtA" target="_blank">Sign up for Podio</a> (it's free!)
-* <a href="https://help.podio.com/entries/21684758-Creating-a-webform-from-an-app" target="_blank">How to create a Podio Webform</a>
-* <a href="https://developers.podio.com/examples/webforms" target="_blank">Webform Examples for Podio Developers</a>
+* <a href="https://help.podio.com/hc/en-us/articles/201019628-Webforms" target="_blank">How to create a Podio Webform</a>
 * <a href="https://podio.com/market" target="_blank">Podio Apps Market</a> (all apps are free, some come pre-configured as Webforms)
-* <a href="https://zapier.com/zapbook/podio/" target="_blank">Zapier Podio Integrations</a>
-* <a href="https://www.itduzzit.com/connect/podio" target="_blank">itDuzzit Podio Integrations</a>
+* <a href="https://zapier.com/apps/podio/integrations" target="_blank">Zapier Podio Integrations</a>
 
 FYI: This is a third-party plugin, not officially from the Podio company.
 
-Developers may contribute at https://github.com/cliffordp/Podio-Webforms
+Developers may contribute at https://github.com/cliffordp/podio-webforms
 
 == Installation ==
 
