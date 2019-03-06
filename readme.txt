@@ -1,7 +1,7 @@
 === Podio Webforms ===
 Contributors: cliffpaulick
 Tags: podio, shortcode, forms, https, responsive
-Requires at least: 3.0
+Requires at least: 4.6
 Tested up to: 5.1
 Stable tag: 1.2
 License: GPL version 3 or any later version
@@ -72,6 +72,8 @@ No need. Just enjoy. If you don't have a Podio account yet, I'd appreciate you s
 * March 6, 2019
 * License changed from GPLv2+ to GPLv3+.
 * Now passes the shortcode name to `shortcode_atts()` to allow filtering this plugin's shortcode.
+* Text within `<noscript>` is now translatable.
+* Now requires WordPress version 4.6 or newer.
 * Readme compatibility changed to WordPress version 5.1
 
 = 1.1 =
