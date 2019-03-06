@@ -2,7 +2,7 @@
 Contributors: cliffpaulick
 Tags: podio, shortcode, shortcodes, crm, contact, contacts, customer, customers, lead, leads, quote, contact form, contact forms, form, forms, secure form, wp contact form, webform, webforms widget, security, ssl, https, script, scripts, responsive
 Requires at least: 3.0
-Tested up to: 4.2.1
+Tested up to: 5.1
 Stable tag: 1.2
 License: GPL version 3 or any later version
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -74,6 +74,8 @@ No need. Just enjoy. If you don't have a Podio account yet, I'd appreciate you s
 = 1.2 =
 * March 6, 2019
 * License changed from GPLv2+ to GPLv3+.
+* Readme compatibility changed to WordPress version 5.1
+
 = 1.1 =
 * April 28, 2015
 * Readme compatibility changed to WordPress version 4.2.1
