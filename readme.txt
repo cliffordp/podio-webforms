@@ -73,6 +73,7 @@ No need. Just enjoy. If you don't have a Podio account yet, I'd appreciate you s
 = 1.2 =
 * March 6, 2019
 * License changed from GPLv2+ to GPLv3+.
+* Now passes the shortcode name to `shortcode_atts()` to allow filtering this plugin's shortcode.
 * Readme compatibility changed to WordPress version 5.1
 
 = 1.1 =
